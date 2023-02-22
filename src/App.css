@@ -24,9 +24,7 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
+
 
 @keyframes App-logo-spin {
   from {
@@ -36,3 +34,251 @@
     transform: rotate(360deg);
   }
 }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #333;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar-nav {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin-left: 20px;
+}
+
+.nav-link {
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #0077C9;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-text {
+  font-size: 14px;
+}
+
+.footer-nav {
+  display: flex;
+}
+
+.footer-nav a {
+  color: #fff;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.footer-social {
+  display: flex;
+}
+
+.footer-social a {
+  color: #fff;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.header {
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  background-image: url('./ottoman2.png');
+  background-repeat:no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.header-title {
+  position: relative;
+  text-align: center;
+  color: #fff;
+  margin: auto;
+  width: 80%;
+  font-size: 65px;
+  font-weight: bold;
+  padding-top: 70px;
+}
+
+.header-image-container {
+  position: relative;
+}
+
+.header-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.header-sub{
+  color: #fff;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: left;
+  padding: 170px 15px 10px 20px;
+}
+
+.header-sub1{
+  color: #fff;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: left;
+  padding: 80px 15px 10px 20px;
+}
+
+.header-sub-p{
+  color: #fff;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: left;
+  padding: 10px 15px 10px 20px;
+  margin-top: -20px;
+}
+
+.video{
+  align-items: left;
+}
+
+ .contact-page {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  color: #fff;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input,
+textarea {
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0069d9;
+}
+
+.carousel-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.new-works {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+}
+
+.pic-name{
+  color: #fff;
+}
+
+.new-works{
+  position: relative;
+  width: 60%;
+  height: auto;
+}
+
+.carousel {
+  position: relative;
+  height: 900px;
+}
+
+.slide {
+  position: absolute;
+  opacity: 0;
+  transition: opacity 1s;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+.slide.active {
+  opacity: 1;
+  z-index: 1;
+}
+
+.contact-background{
+  background-image: url('./ottoman2.png');
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+
